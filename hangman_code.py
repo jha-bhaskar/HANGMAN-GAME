@@ -3,7 +3,6 @@ import word_file
 import hanging_man
 health=6
 chosen_word=random.choice(word_file.words)
-print(chosen_word)
 display=[]
 for i in range(len(chosen_word)):
     display += '_'
